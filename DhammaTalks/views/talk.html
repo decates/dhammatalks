@@ -1,0 +1,29 @@
+﻿<div ng:if="ready">
+    <h3 class="text-center">{{talk.teacherName}}</h3>
+
+    <div class="media">
+        <!--<div class="pull-left">
+            <img class="media-object" ng-src="http://media.dharmaseed.org/uploads/photos/teacher_{{talk.teacherId}}_125_0.png" alt="...">
+        </div>-->
+        <div class="media-body">
+            <h4 class="media-heading">{{talk.title}}</h4>
+            <p>{{talk.description}}</p>
+            <em>{{talk.recordedDate | date}}</em>
+        </div>
+    </div>
+    <div style="margin: auto 0;">
+        <div ng-show="!isMediaLoaded" style="width: 25em; margin: 0 auto;">
+            <div class="btn-group btn-group-lg">
+                <button class="btn btn-primary" type="button" ng-click="loadMedia(true)"><span class="glyphicon glyphicon-play"></span></button>
+                <button class="btn btn-default disabled"><em>Duration:</em> {{ talk.duration }}</button>
+            </div>
+        </div>
+
+        <div ng-show="isMediaLoaded" style="width: 25em; margin: 0 auto;">
+            <div class="btn-group btn-group-lg">
+                <button class="btn btn-primary" type="button" ng-click="playPause()" ng-class="{ 'active': isPlaying }"><span class="glyphicon" ng-class="{ 'glyphicon-pause': isPlaying, 'glyphicon-play': !isPlaying }"></span></button>
+                <button class="btn btn-default disabled">{{ currentTime|secondsToSpan }} <b>/</b> {{ playerData.status.duration|secondsToSpan }}</button>
+            </div>
+        </div>
+    </div>
+</div>

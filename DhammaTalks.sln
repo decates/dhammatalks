@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DhammaTalks", "DhammaTalks\DhammaTalks.csproj", "{3EBFE192-7F18-4735-B42E-B82193039350}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DhammaTalks.Core", "DhammaTalks.Core\DhammaTalks.Core.csproj", "{C14CAF8A-EE3D-4DEF-ADB1-4ABE87D24FB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DhammaTalks.Dummies", "DhammaTalks.Dummies\DhammaTalks.Dummies.csproj", "{BAE5CFF7-CB92-4126-B9F8-26C9660AB020}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DhammaTalks.Api", "DhammaTalks.Api\DhammaTalks.Api.csproj", "{9A8A4304-F138-43C3-9F0E-61CA5B37FD91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DhammaTalks.DataAccess.Sql", "DhammaTalks.DataAccess.Sql\DhammaTalks.DataAccess.Sql.csproj", "{8D311E72-080D-4456-A668-05967D70BA94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Ninject", "Infrastructure.Ninject\Infrastructure.Ninject.csproj", "{CA30BD73-70E6-48E4-B013-0329065FFB78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EBFE192-7F18-4735-B42E-B82193039350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EBFE192-7F18-4735-B42E-B82193039350}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EBFE192-7F18-4735-B42E-B82193039350}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EBFE192-7F18-4735-B42E-B82193039350}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C14CAF8A-EE3D-4DEF-ADB1-4ABE87D24FB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C14CAF8A-EE3D-4DEF-ADB1-4ABE87D24FB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C14CAF8A-EE3D-4DEF-ADB1-4ABE87D24FB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C14CAF8A-EE3D-4DEF-ADB1-4ABE87D24FB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAE5CFF7-CB92-4126-B9F8-26C9660AB020}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAE5CFF7-CB92-4126-B9F8-26C9660AB020}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAE5CFF7-CB92-4126-B9F8-26C9660AB020}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAE5CFF7-CB92-4126-B9F8-26C9660AB020}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A8A4304-F138-43C3-9F0E-61CA5B37FD91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A8A4304-F138-43C3-9F0E-61CA5B37FD91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A8A4304-F138-43C3-9F0E-61CA5B37FD91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A8A4304-F138-43C3-9F0E-61CA5B37FD91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D311E72-080D-4456-A668-05967D70BA94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D311E72-080D-4456-A668-05967D70BA94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D311E72-080D-4456-A668-05967D70BA94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D311E72-080D-4456-A668-05967D70BA94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA30BD73-70E6-48E4-B013-0329065FFB78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA30BD73-70E6-48E4-B013-0329065FFB78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA30BD73-70E6-48E4-B013-0329065FFB78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA30BD73-70E6-48E4-B013-0329065FFB78}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
